@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="response.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <span class="first">AKH</span><span class="second">BAR</span>
+            </div>
+            <div class="searchBar">
+                <input type="search" value="" id="searchbox" class="searchbox" placeholder="eg. Virat Kohli">
+                <button id="search-button" class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li class="nav-options" id="sports" onclick="searchAbt(id)">SPORTS</li>
+                    <li class="nav-options" id="politics" onclick="searchAbt(id)">POLITICS</li>
+                    <li class="nav-options" id="wwe" onclick="searchAbt(id)">WWE</li>
+                    <li class="nav-options" id="bollywood" onclick="searchAbt(id)">BOLLYWOOD</li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+    <main>
+        <div class="news-cards" id="allCards">
+            
+        </div>
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="newImg">
+                <img src="772869d60cd249beaa3db798351cfebb_464_464.jpg" id="news-img" alt="">
+            </div>
+            <div class="news">
+                <span id="source">ye wala phir ye wala</span>
+                <h2 class="headline">headline</h2>
+                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quos distinctio quae voluptatum provident ea est impedit aliquam cupiditate illum dolorum quo incidunt illo aut, atque ex quidem temporibus! Distinctio?</p>
+
+            </div>
+        </div>
+    </template>
+    <script src="script.js"></script>
+</body>
+
+</html>

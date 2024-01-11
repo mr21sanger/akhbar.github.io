@@ -1,0 +1,222 @@
+@media screen and (max-width:1180px) {
+    .navbar {
+        width: 100vw;
+        flex-wrap: wrap;
+        height: 12vh;
+    }
+
+    .logo {
+        width: 20%;
+
+    }
+
+    .logo span {
+        font-size: 1.8rem;
+    }
+
+    .nav-items {
+        width: 100vw;
+    }
+
+    .nav-options {
+        font-size: 1.2rem;
+    }
+
+    .searchBar {
+        width: 70%;
+        text-align: center;
+    }
+
+    .searchbox {
+        width: 45vw;
+        font-size: 1rem;
+    }
+
+    .search-button {
+        width: 10vw;
+    }
+
+    .search-button i {
+        font-size: 1rem;
+    }
+
+    .news-cards {
+        row-gap: 1.5em;
+        margin-top: 10em;
+    }
+
+    .card {
+        width: 43vw;
+        height: 45vh;
+        padding-block: 0.5em;
+
+    }
+
+    .newImg img {
+        width: 41vw;
+        height: 30vh;
+    }
+
+    .news {
+        width: 40vw;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .info {
+        font-size: 0.9rem;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width:676px) {
+    .navbar {
+        width: 100vw;
+        flex-wrap: wrap;
+        height: 15vh;
+    }
+
+    .logo {
+        width: 20%;
+
+    }
+
+    .logo span {
+        font-size: 1.8rem;
+    }
+
+    .nav-items {
+        width: 100vw;
+    }
+
+    .nav-options {
+        font-size: 1rem;
+    }
+
+    .searchBar {
+        width: 70%;
+        text-align: center;
+    }
+
+    .searchbox {
+        width: 45vw;
+        font-size: 1rem;
+    }
+
+    .search-button {
+        width: 10vw;
+    }
+
+    .search-button i {
+        font-size: 1rem;
+    }
+
+    .news-cards {
+        row-gap: 1.5em;
+        margin-top: 10em;
+    }
+
+    .card {
+        width: 90vw;
+        height: 45vh;
+        padding-block: 0.5em;
+
+    }
+
+    .newImg img {
+        width: 87vw;
+        height: 30vh;
+    }
+
+    .news {
+        width: 86vw;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .info {
+        font-size: 0.9rem;
+        font-weight: lighter;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .navbar {
+        width: 100vw;
+        flex-wrap: wrap;
+        height: 15vh;
+    }
+
+    .logo {
+        width: 20%;
+
+    }
+
+    .logo span {
+        font-size: 1.8rem;
+    }
+
+    .nav-items {
+        width: 100vw;
+    }
+
+    .nav-options {
+        font-size: 1rem;
+    }
+
+    .searchBar {
+        width: 70%;
+        text-align: center;
+    }
+
+    .searchbox {
+        width: 45vw;
+        font-size: 1rem;
+    }
+
+    .search-button {
+        width: 10vw;
+    }
+
+    .search-button i {
+        font-size: 1rem;
+    }
+
+    .news-cards {
+        row-gap: 1.5em;
+        margin-top: 8em;
+    }
+
+    .card {
+        width: 90vw;
+        height: 45vh;
+        padding-block: 0.5em;
+
+    }
+
+    .newImg img {
+        width: 87vw;
+        height: 31vh;
+    }
+
+    .news {
+        width: 86vw;
+    }
+
+    .headline {
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    .info {
+        font-size: 0.9rem;
+        font-weight: lighter;
+        display: none;
+    }
+}
